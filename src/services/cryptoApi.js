@@ -16,7 +16,7 @@ const cryptoApiHeaders = {
 
 }
 
-const baseUrl = 'https://cors-anywhere.herokuapp.com/https://api.coinranking.com/v2';
+const baseUrl = 'https://api.coinranking.com/v2';
 
 const createRequest = (url) => ({ url, headers: cryptoApiHeaders })
 
